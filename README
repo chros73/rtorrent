@@ -39,3 +39,28 @@ CONTACT
 
  Send bug reports, suggestions and patches to
 <sundell.software@gmail.com> or to the mailinglist.
+
+
+FORK NOTES
+
+This fork is a set of fixes and enhancements.
+Note: unmerged issues are not on master branch but on a separate branch.
+
+Change Log:
+
+- 24-Jan-2018 : Fix for missing throttle arguments (#23) (Merged)
+- 24-Jan-2018 : Fix race condition in CommandScheduler (#22)
+- 10-Dec-2017 : IPv4 filter enhancement (#21) (Merged)
+- 02-Aug-2017 : Fix compiling issue with gcc v6.x and empty CXXFLAGS (#20) (Merged)
+- 17-Apr-2017 : Modify throttle status bar mod to be able to display multiple values (#6)
+- 11-Jun-2017 : Modify directory.watch.added and add directory.watch.removed command (#19)
+- 06-Jun-2017 : Implement input (command) history with categories (#18)
+- 06-Jun-2017 : Make global throttle steps adjustable (#17)
+- 06-Mar-2017 : Fix partially done downloads and choke groups (#15)
+- 06-Mar-2017 : Add support for basic arithmetic operators (#14) (Merged)
+- 15-May-2017 : Fix honoring system.file.allocate.set=1 rtorrent config setting (#16)
+- 29-Aug-2016 : Fix type of m_ssl_verify_host variable (#12) (Merged)
+- 25-Aug-2016 : Add init scripts into doc directory (#10) (Merged)
+- 25-Aug-2016 : Fix fast resume script breaking single file torrents (#7) (Merged)
+- 21-Jul-2016 : Expose meta property of downloads (#5) (Merged)
+- 06-Jul-2016 : Fix scheduled sorting/filtering bug on started and stopped views in rtorrent (#3) (Merged)
